@@ -1,0 +1,830 @@
+INFO	2020-09-24 08:20:26,485	0	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:20:31,569	5084	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:22:11,203	0	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:22:16,315	5112	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:23:08,724	0	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:23:14,276	5552	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:23:53,372	0	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:23:58,451	5079	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:25:04,945	0	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:25:10,095	5150	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:25:38,522	0	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 08:25:43,449	4927	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 13:39:50,258	0	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-24 13:39:58,342	8084	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-24 13:55:08,615	0	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-24 13:55:16,214	7599	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-24 14:49:56,060	0	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 14:50:05,275	9215	EmployeesRestAPI	[main]	*****finished*******TC005_Delete_Employee_Record***
+INFO	2020-09-24 14:51:31,977	0	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 14:52:02,462	0	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 15:39:05,050	0	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 15:39:22,490	17440	EmployeesRestAPI	[main]	*****finished*******TC005_Delete_Employee_Record***
+INFO	2020-09-24 15:41:36,187	0	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 15:41:45,393	9206	EmployeesRestAPI	[main]	*****finished*******TC005_Delete_Employee_Record***
+INFO	2020-09-24 16:22:09,225	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-24 16:22:11,675	2450	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-24 16:22:11,676	2451	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-24 16:22:11,678	2453	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-24 16:22:11,679	2454	EmployeesRestAPI	[main]	ContentLength  isnull
+INFO	2020-09-24 16:22:11,681	2456	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-24 16:22:11,681	2456	EmployeesRestAPI	[main]	contentType  istext/html; charset=UTF-8
+INFO	2020-09-24 16:22:11,682	2457	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-24 16:22:11,683	2458	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-24 16:22:11,697	2472	EmployeesRestAPI	[main]	responsebody is<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=(function(){var count=0,incr=0,items=[],timeDelayFired=false,hpItems=[],lpItems=[],allowLoad=true;var obj={func:function(name,funcName,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError){var self=this;this.name=name;this.funcName=funcName;this.parameters=parameters===null?null:(parameters instanceof Array)?parameters:[parameters];this.isBlock=isBlock;this.blockedBy=blockedBy;this.deleteWhenComplete=deleteWhenComplete;this.isError=false;this.isComplete=false;this.isInitialized=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){log("... func = "+name);self.isInitialized=true;self.isComplete=true;log("... func.apply: "+name);var funcs=self.funcName.split('.');var func=null;if(funcs.length>3){}else if(funcs.length===3){func=window[funcs[0]][funcs[1]][funcs[2]];}else if(funcs.length===2){func=window[funcs[0]][funcs[1]];}else{func=window[self.funcName];}
+if(typeof func!=='undefined'&&func!==null){func.apply(null,this.parameters);}
+if(self.deleteWhenComplete===true)delete items[name];if(self.isBlock===true){log("----- F'D: "+self.name);processAll();}}},file:function(name,path,isBlock,blockedBy,async,defer,proceedIfError){var self=this;this.name=name;this.path=path;this.async=async;this.defer=defer;this.isBlock=isBlock;this.blockedBy=blockedBy;this.isInitialized=false;this.isError=false;this.isComplete=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){self.isInitialized=true;log("... file = "+name);var scr=document.createElement('script');scr.src=path;if(async===true)scr.async=true;else if(defer===true)scr.defer=true;scr.onerror=function(){log("----- ERR'D: "+self.name);self.isError=true;if(self.isBlock===true){processAll();}};scr.onreadystatechange=scr.onload=function(){var state=scr.readyState;log("----- F'D: "+self.name);if((!state||/loaded|complete/.test(state))){self.isComplete=true;if(self.isBlock===true){processAll();}}};document.getElementsByTagName('head')[0].appendChild(scr);}}};function init(){window.addEventListener("load",function(){setTimeout(function(){timeDelayFired=true;log('TDELAY -----');processAll();},5000);},false);}
+function addFile(name,path,isBlock,blockedBy,async,defer,proceedIfError,priority){var item=new obj.file(name,path,isBlock,blockedBy,async,defer,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function setallowLoad(settobool){allowLoad=settobool}
+function addFunc(name,func,parameters,isBlock,blockedBy,autoInc,deleteWhenComplete,proceedIfError,priority){if(autoInc===true)name=name+"_"+incr++;var item=new obj.func(name,func,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFile(name,path){var item=new obj.file(name,path,false,[],false,false,true);item.isTimeDelay=true;log(name+' ... '+' FILE! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFunc(name,func,parameters){var item=new obj.func(name,func,parameters,false,[],true,true);item.isTimeDelay=true;log(name+' ... '+' FUNCTION! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function checkIfBlocked(item){if(isBlocked(item)===true||allowLoad==false)return;item.process();}
+function isBlocked(item){if(item.isTimeDelay===true&&timeDelayFired===false){log(item.name+" blocked = TIME DELAY!");return true;}
+if(item.blockedBy instanceof Array){for(var i=0;i<item.blockedBy.length;i++){var block=item.blockedBy[i];if(items.hasOwnProperty(block)===false){log(item.name+" blocked = "+block);return true;}else if(item.proceedIfError===true&&items[block].isError===true){return false;}else if(items[block].isComplete===false){log(item.name+" blocked = "+block);return true;}}}
+return false;}
+function log(msg){var href=window.location.href;var reg=new RegExp('[?&]ezq=([^&#]*)','i');var string=reg.exec(href);var res=string?string[1]:null;if(res==="1")console.debug(msg);}
+function processAll(){count++;if(count>200)return;log("let's go");processItems(hpItems);processItems(lpItems);}
+function processItems(list){for(var i in list){if(list.hasOwnProperty(i)===false)continue;var item=list[i];if(item.isComplete===true||isBlocked(item)||item.isInitialized===true||item.isError===true){if(item.isError===true){log(item.name+': error')}else if(item.isComplete===true){log(item.name+': complete already')}else if(item.isInitialized===true){log(item.name+': initialized already')}}else{item.process();}}}
+init();return{addFile:addFile,addDelayFile:addTimeDelayFile,addFunc:addFunc,addDelayFunc:addTimeDelayFunc,items:items,processAll:processAll,setallowLoad:setallowLoad};})();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.dot={};__ez.queue.addFile('/detroitchicago/memphis.js', '/detroitchicago/memphis.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/minneapolis.js', '/detroitchicago/minneapolis.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.vep=(function(){var pixels=[],pxURL="/detroitchicago/grapefruit.gif";function AddPixel(vID,pixelData){if(__ez.dot.isDefined(vID)&&__ez.dot.isValid(pixelData)){pixels.push({type:'video',video_impression_id:vID,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&&document.visibilityState==="prerender"){return;}
+if(__ez.dot.isDefined(pixels)&&pixels.length>0){while(pixels.length>0){var j=5;if(j>pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);(new Image()).src=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&v="+btoa(JSON.stringify(pushPixels));}}
+pixels=[];}
+return{Add:AddPixel,Fire:Fire};})();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>__ez.pel=(function(){var pixels=[],pxURL="/porpoiseant/army.gif";function AddAndFirePixel(adSlot,pixelData){AddPixel(adSlot,pixelData,0,0,0,0,0);Fire();}
+function GetCurrentPixels(){return pixels;}
+function AddPixel(adSlot,pixelData,revenue,est_revenue,bid_floor_filled,bid_floor_prev,stat_source_id){if(!__ez.dot.isDefined(adSlot)||__ez.dot.isAnyDefined(adSlot.getSlotElementId,adSlot.ElementId)==false){return;}
+var ad_position_id=parseInt(__ez.dot.getTargeting(adSlot,'ap'));var impId=__ez.dot.getSlotIID(adSlot),adUnit=__ez.dot.getAdUnit(adSlot);var compId=parseInt(__ez.dot.getTargeting(adSlot,"compid"));var lineItemId=0;var creativeId=0;var ezimData=getEzimData(adSlot);if(typeof ezimData=='object'){if(ezimData.creative_id!==undefined){creativeId=ezimData.creative_id;}
+if(ezimData.line_item_id!==undefined){lineItemId=ezimData.line_item_id;}}
+if(__ez.dot.isDefined(impId,adUnit)&&__ez.dot.isValid(pixelData)){pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),revenue:revenue,est_revenue:est_revenue,ad_position:ad_position_id,ad_size:"",bid_floor_filled:bid_floor_filled,bid_floor_prev:bid_floor_prev,stat_source_id:stat_source_id,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:compId,line_item_id:lineItemId,creative_id:creativeId,data:__ez.dot.dataToStr(pixelData)});}}
+function AddPixelById(impFullId,pixelData){var vals=impFullId.split('/');if(__ez.dot.isDefined(impFullId)&&vals.length===3&&__ez.dot.isValid(pixelData)){var adUnit=vals[0],impId=vals[2];pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&&document.visibilityState==="prerender")return;if(__ez.dot.isDefined(pixels)&&pixels.length>0){while(pixels.length>0){var j=5;if(j>pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);var pixelURL=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&sts="+btoa(JSON.stringify(pushPixels));if(typeof window.isAmp!=='undefined'&&isAmp&&typeof window._ezaq!=='undefined'&&_ezaq.hasOwnProperty("domain_id")){pixelURL+="&visit_uuid="+_ezaq['visit_uuid'];}
+(new Image()).src=pixelURL;}}
+pixels=[];}
+function getEzimData(adSlot){if(typeof _ezim_d=="undefined"){return false}
+var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d==='object'&&_ezim_d.hasOwnProperty(adUnitName)){return _ezim_d[adUnitName];}
+for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
+return false;}
+return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=191-6&cb=1', false, [], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":3,"bidder_version":5,"city":"Meerut","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":4,"page_ad_positions":"","page_view_count":0,"page_view_id":"36531baa-c717-4812-6567-8f4f61357afd","position_selection_id":0,"postal_code":"250001","pv_event_count":0,"response_time_orig":702,"serverid":"13.250.58.78:5915","state":"UP","sub_page_ad_positions":"","t_epoch":1600944669,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employees","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-24","pageview_id":"36531baa-c717-4812-6567-8f4f61357afd","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employees","visit_uuid":"3b88ff19-1254-4ac4-55d5-44af7d90e981"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=191-6&cb=2', false, [], true, false, true, false);</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    
+<script data-ezscrex="false" data-cfasync="false" type="text/javascript">window.google_analytics_uacct = "UA-131129777-14";</script>
+<script data-ezscrex="false" data-cfasync="false" type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(function(){
+	_gat._createTracker('UA-131129777-14', 'e');
+});
+_gaq.push(function(){
+	_gat._createTracker('UA-38339005-1', 'f');
+});
+_gaq.push(['e._setDomainName', 'restapiexample.com']);
+_gaq.push(['f._setDomainName', 'restapiexample.com']);
+_gaq.push(['e._setCustomVar',1,'template','pub_site_noads',3]);
+_gaq.push(['e._setCustomVar',2,'t','147',3]);
+_gaq.push(['e._setCustomVar',3,'rid','0',2]);
+_gaq.push(['e._setCustomVar',4,'bra','mod1',3]);
+_gaq.push(['e._setAllowAnchor',true]);
+_gaq.push(['e._setSiteSpeedSampleRate', 10]);
+_gaq.push(['f._setCustomVar',1,'template','pub_site_noads',3]);
+_gaq.push(['f._setCustomVar',2,'domain','restapiexample.com',3]);
+_gaq.push(['f._setSiteSpeedSampleRate', 20]);
+_gaq.push(['e._trackPageview']);
+_gaq.push(['f._trackPageview']);
+
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">var ezouid = "1";</script><base href="http://dummy.restapiexample.com/api/v1/employees"><script type='text/javascript'>
+var ezoTemplate = 'pub_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 133674;
+var ezdomain = 'restapiexample.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>
+__ez.queue.addFile('__ezf_ezosuigeneris', '//g.ezoic.net/ezosuigeneris.js', true, [], true, false, false, false);
+var __ez_ezosuigenerisEvt = function() { if(typeof(ezosuigeneris) != 'undefined'){__ez.bit.AddAndFire(_ezaq['page_view_id'], [(new __ezDotData('universal_user_id', ezosuigeneris))]); }};
+__ez.queue.addFunc('__ez_ezosuigenerisEvt', '__ez_ezosuigenerisEvt', null, false, ['__ezf_ezosuigeneris','/detroitchicago/minneapolis.js','/detroitchicago/memphis.js'], false, false, false, false);</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>__ez.queue.addFile('__ezf_ezosuigenerisc', '//g.ezoic.net/ezosuigenerisc.js?nogen=1', true, ["/detroitchicago/boise.js"], true, false, false, false);</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_133674=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["36531baa-c717-4812-6567-8f4f61357afd", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=191-6&shcb=34', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=191-6&shcb=34', false, [], true, false, false, false);
+</script>
+
+<script type='text/javascript' data-cfasync='false'></script></body>
+</html>
+
+INFO	2020-09-24 16:22:11,699	2474	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-24 16:22:11,699	2474	EmployeesRestAPI	[main]	responseTime is1900
+INFO	2020-09-24 16:22:11,700	2475	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-24 16:22:11,700	2475	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-24 16:22:11,701	2476	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-24 16:22:11,701	2476	EmployeesRestAPI	[main]	statuscode is429
+INFO	2020-09-24 16:22:11,702	2477	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-24 16:22:11,702	2477	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 429 Too Many Requests
+INFO	2020-09-24 16:22:11,703	2478	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-24 16:22:11,705	2480	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 16:22:16,124	6899	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 16:22:16,126	6901	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-24 16:22:22,234	13009	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-24 16:22:22,236	13011	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-24 16:22:28,195	18970	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-24 16:22:28,197	18972	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 18:11:07,263	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-24 18:11:10,239	2976	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-24 18:11:10,239	2976	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-24 18:11:10,248	2985	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-24 18:11:10,248	2985	EmployeesRestAPI	[main]	ContentLength  is631
+INFO	2020-09-24 18:11:10,249	2986	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-24 18:11:10,249	2986	EmployeesRestAPI	[main]	contentType  isapplication/json
+INFO	2020-09-24 18:11:10,250	2987	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-24 18:11:10,254	2991	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-24 18:11:10,264	3001	EmployeesRestAPI	[main]	responsebody is{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2020-09-24 18:11:10,265	3002	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-24 18:11:10,265	3002	EmployeesRestAPI	[main]	responseTime is2428
+WARN	2020-09-24 18:11:10,265	3002	EmployeesRestAPI	[main]	Response time is greater than 2000
+INFO	2020-09-24 18:11:10,267	3004	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-24 18:11:10,267	3004	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-24 18:11:10,268	3005	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-24 18:11:10,268	3005	EmployeesRestAPI	[main]	statuscode is200
+INFO	2020-09-24 18:11:10,270	3007	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-24 18:11:10,270	3007	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 200 OK
+INFO	2020-09-24 18:11:10,271	3008	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-24 18:11:10,273	3010	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 18:11:14,777	7514	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 18:11:14,778	7515	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-24 18:11:21,004	13741	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-24 18:11:21,007	13744	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-24 18:11:27,238	19975	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-24 18:11:27,240	19977	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 22:59:06,642	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-24 22:59:09,001	2359	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-24 22:59:09,001	2359	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-24 22:59:09,009	2367	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-24 22:59:09,009	2367	EmployeesRestAPI	[main]	ContentLength  is631
+INFO	2020-09-24 22:59:09,009	2367	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-24 22:59:09,009	2367	EmployeesRestAPI	[main]	contentType  isapplication/json
+INFO	2020-09-24 22:59:09,010	2368	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-24 22:59:09,014	2372	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-24 22:59:09,028	2386	EmployeesRestAPI	[main]	responsebody is{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2020-09-24 22:59:09,029	2387	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-24 22:59:09,029	2387	EmployeesRestAPI	[main]	responseTime is1816
+INFO	2020-09-24 22:59:09,029	2387	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-24 22:59:09,029	2387	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-24 22:59:09,030	2388	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-24 22:59:09,030	2388	EmployeesRestAPI	[main]	statuscode is200
+INFO	2020-09-24 22:59:09,030	2388	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-24 22:59:09,030	2388	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 200 OK
+INFO	2020-09-24 22:59:09,031	2389	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-24 22:59:09,034	2392	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 22:59:13,060	6418	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 22:59:13,061	6419	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-24 22:59:19,215	12573	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-24 22:59:19,219	12577	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-24 22:59:25,607	18965	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-24 22:59:25,609	18967	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 23:00:20,643	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-24 23:00:22,520	1877	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-24 23:00:22,520	1877	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-24 23:00:22,527	1884	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-24 23:00:22,527	1884	EmployeesRestAPI	[main]	ContentLength  isnull
+INFO	2020-09-24 23:00:22,533	1890	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-24 23:00:22,533	1890	EmployeesRestAPI	[main]	contentType  istext/html; charset=UTF-8
+INFO	2020-09-24 23:00:22,534	1891	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-24 23:00:22,534	1891	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-24 23:00:22,547	1904	EmployeesRestAPI	[main]	responsebody is<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=(function(){var count=0,incr=0,items=[],timeDelayFired=false,hpItems=[],lpItems=[],allowLoad=true;var obj={func:function(name,funcName,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError){var self=this;this.name=name;this.funcName=funcName;this.parameters=parameters===null?null:(parameters instanceof Array)?parameters:[parameters];this.isBlock=isBlock;this.blockedBy=blockedBy;this.deleteWhenComplete=deleteWhenComplete;this.isError=false;this.isComplete=false;this.isInitialized=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){log("... func = "+name);self.isInitialized=true;self.isComplete=true;log("... func.apply: "+name);var funcs=self.funcName.split('.');var func=null;if(funcs.length>3){}else if(funcs.length===3){func=window[funcs[0]][funcs[1]][funcs[2]];}else if(funcs.length===2){func=window[funcs[0]][funcs[1]];}else{func=window[self.funcName];}
+if(typeof func!=='undefined'&&func!==null){func.apply(null,this.parameters);}
+if(self.deleteWhenComplete===true)delete items[name];if(self.isBlock===true){log("----- F'D: "+self.name);processAll();}}},file:function(name,path,isBlock,blockedBy,async,defer,proceedIfError){var self=this;this.name=name;this.path=path;this.async=async;this.defer=defer;this.isBlock=isBlock;this.blockedBy=blockedBy;this.isInitialized=false;this.isError=false;this.isComplete=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){self.isInitialized=true;log("... file = "+name);var scr=document.createElement('script');scr.src=path;if(async===true)scr.async=true;else if(defer===true)scr.defer=true;scr.onerror=function(){log("----- ERR'D: "+self.name);self.isError=true;if(self.isBlock===true){processAll();}};scr.onreadystatechange=scr.onload=function(){var state=scr.readyState;log("----- F'D: "+self.name);if((!state||/loaded|complete/.test(state))){self.isComplete=true;if(self.isBlock===true){processAll();}}};document.getElementsByTagName('head')[0].appendChild(scr);}}};function init(){window.addEventListener("load",function(){setTimeout(function(){timeDelayFired=true;log('TDELAY -----');processAll();},5000);},false);}
+function addFile(name,path,isBlock,blockedBy,async,defer,proceedIfError,priority){var item=new obj.file(name,path,isBlock,blockedBy,async,defer,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function setallowLoad(settobool){allowLoad=settobool}
+function addFunc(name,func,parameters,isBlock,blockedBy,autoInc,deleteWhenComplete,proceedIfError,priority){if(autoInc===true)name=name+"_"+incr++;var item=new obj.func(name,func,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFile(name,path){var item=new obj.file(name,path,false,[],false,false,true);item.isTimeDelay=true;log(name+' ... '+' FILE! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFunc(name,func,parameters){var item=new obj.func(name,func,parameters,false,[],true,true);item.isTimeDelay=true;log(name+' ... '+' FUNCTION! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function checkIfBlocked(item){if(isBlocked(item)===true||allowLoad==false)return;item.process();}
+function isBlocked(item){if(item.isTimeDelay===true&&timeDelayFired===false){log(item.name+" blocked = TIME DELAY!");return true;}
+if(item.blockedBy instanceof Array){for(var i=0;i<item.blockedBy.length;i++){var block=item.blockedBy[i];if(items.hasOwnProperty(block)===false){log(item.name+" blocked = "+block);return true;}else if(item.proceedIfError===true&&items[block].isError===true){return false;}else if(items[block].isComplete===false){log(item.name+" blocked = "+block);return true;}}}
+return false;}
+function log(msg){var href=window.location.href;var reg=new RegExp('[?&]ezq=([^&#]*)','i');var string=reg.exec(href);var res=string?string[1]:null;if(res==="1")console.debug(msg);}
+function processAll(){count++;if(count>200)return;log("let's go");processItems(hpItems);processItems(lpItems);}
+function processItems(list){for(var i in list){if(list.hasOwnProperty(i)===false)continue;var item=list[i];if(item.isComplete===true||isBlocked(item)||item.isInitialized===true||item.isError===true){if(item.isError===true){log(item.name+': error')}else if(item.isComplete===true){log(item.name+': complete already')}else if(item.isInitialized===true){log(item.name+': initialized already')}}else{item.process();}}}
+init();return{addFile:addFile,addDelayFile:addTimeDelayFile,addFunc:addFunc,addDelayFunc:addTimeDelayFunc,items:items,processAll:processAll,setallowLoad:setallowLoad};})();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.dot={};__ez.queue.addFile('/detroitchicago/memphis.js', '/detroitchicago/memphis.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/minneapolis.js', '/detroitchicago/minneapolis.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.vep=(function(){var pixels=[],pxURL="/detroitchicago/grapefruit.gif";function AddPixel(vID,pixelData){if(__ez.dot.isDefined(vID)&&__ez.dot.isValid(pixelData)){pixels.push({type:'video',video_impression_id:vID,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&&document.visibilityState==="prerender"){return;}
+if(__ez.dot.isDefined(pixels)&&pixels.length>0){while(pixels.length>0){var j=5;if(j>pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);(new Image()).src=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&v="+btoa(JSON.stringify(pushPixels));}}
+pixels=[];}
+return{Add:AddPixel,Fire:Fire};})();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>__ez.pel=(function(){var pixels=[],pxURL="/porpoiseant/army.gif";function AddAndFirePixel(adSlot,pixelData){AddPixel(adSlot,pixelData,0,0,0,0,0);Fire();}
+function GetCurrentPixels(){return pixels;}
+function AddPixel(adSlot,pixelData,revenue,est_revenue,bid_floor_filled,bid_floor_prev,stat_source_id){if(!__ez.dot.isDefined(adSlot)||__ez.dot.isAnyDefined(adSlot.getSlotElementId,adSlot.ElementId)==false){return;}
+var ad_position_id=parseInt(__ez.dot.getTargeting(adSlot,'ap'));var impId=__ez.dot.getSlotIID(adSlot),adUnit=__ez.dot.getAdUnit(adSlot);var compId=parseInt(__ez.dot.getTargeting(adSlot,"compid"));var lineItemId=0;var creativeId=0;var ezimData=getEzimData(adSlot);if(typeof ezimData=='object'){if(ezimData.creative_id!==undefined){creativeId=ezimData.creative_id;}
+if(ezimData.line_item_id!==undefined){lineItemId=ezimData.line_item_id;}}
+if(__ez.dot.isDefined(impId,adUnit)&&__ez.dot.isValid(pixelData)){pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),revenue:revenue,est_revenue:est_revenue,ad_position:ad_position_id,ad_size:"",bid_floor_filled:bid_floor_filled,bid_floor_prev:bid_floor_prev,stat_source_id:stat_source_id,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:compId,line_item_id:lineItemId,creative_id:creativeId,data:__ez.dot.dataToStr(pixelData)});}}
+function AddPixelById(impFullId,pixelData){var vals=impFullId.split('/');if(__ez.dot.isDefined(impFullId)&&vals.length===3&&__ez.dot.isValid(pixelData)){var adUnit=vals[0],impId=vals[2];pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&&document.visibilityState==="prerender")return;if(__ez.dot.isDefined(pixels)&&pixels.length>0){while(pixels.length>0){var j=5;if(j>pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);var pixelURL=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&sts="+btoa(JSON.stringify(pushPixels));if(typeof window.isAmp!=='undefined'&&isAmp&&typeof window._ezaq!=='undefined'&&_ezaq.hasOwnProperty("domain_id")){pixelURL+="&visit_uuid="+_ezaq['visit_uuid'];}
+(new Image()).src=pixelURL;}}
+pixels=[];}
+function getEzimData(adSlot){if(typeof _ezim_d=="undefined"){return false}
+var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d==='object'&&_ezim_d.hasOwnProperty(adUnitName)){return _ezim_d[adUnitName];}
+for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
+return false;}
+return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=191-6&cb=1', false, [], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":1,"bidder_version":3,"city":"Meerut","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":0,"page_view_id":"704b86db-82ea-4bcd-6db6-9a26886e6c7a","position_selection_id":0,"postal_code":"250001","pv_event_count":0,"response_time_orig":807,"serverid":"18.141.10.15:19909","state":"UP","sub_page_ad_positions":"","t_epoch":1600968618,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employees","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-24","pageview_id":"704b86db-82ea-4bcd-6db6-9a26886e6c7a","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employees","visit_uuid":"6b27a486-5b0c-4041-77f0-4faddbff32f2"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=191-6&cb=2', false, [], true, false, true, false);</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    
+<script data-ezscrex="false" data-cfasync="false" type="text/javascript">window.google_analytics_uacct = "UA-131129777-14";</script>
+<script data-ezscrex="false" data-cfasync="false" type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(function(){
+	_gat._createTracker('UA-131129777-14', 'e');
+});
+_gaq.push(function(){
+	_gat._createTracker('UA-38339005-1', 'f');
+});
+_gaq.push(['e._setDomainName', 'restapiexample.com']);
+_gaq.push(['f._setDomainName', 'restapiexample.com']);
+_gaq.push(['e._setCustomVar',1,'template','pub_site_noads',3]);
+_gaq.push(['e._setCustomVar',2,'t','147',3]);
+_gaq.push(['e._setCustomVar',3,'rid','0',2]);
+_gaq.push(['e._setCustomVar',4,'bra','mod1',3]);
+_gaq.push(['e._setAllowAnchor',true]);
+_gaq.push(['e._setSiteSpeedSampleRate', 10]);
+_gaq.push(['f._setCustomVar',1,'template','pub_site_noads',3]);
+_gaq.push(['f._setCustomVar',2,'domain','restapiexample.com',3]);
+_gaq.push(['f._setSiteSpeedSampleRate', 20]);
+_gaq.push(['e._trackPageview']);
+_gaq.push(['f._trackPageview']);
+
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">var ezouid = "1";</script><base href="http://dummy.restapiexample.com/api/v1/employees"><script type='text/javascript'>
+var ezoTemplate = 'pub_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 133674;
+var ezdomain = 'restapiexample.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>
+__ez.queue.addFile('__ezf_ezosuigeneris', '//g.ezoic.net/ezosuigeneris.js', true, [], true, false, false, false);
+var __ez_ezosuigenerisEvt = function() { if(typeof(ezosuigeneris) != 'undefined'){__ez.bit.AddAndFire(_ezaq['page_view_id'], [(new __ezDotData('universal_user_id', ezosuigeneris))]); }};
+__ez.queue.addFunc('__ez_ezosuigenerisEvt', '__ez_ezosuigenerisEvt', null, false, ['__ezf_ezosuigeneris','/detroitchicago/minneapolis.js','/detroitchicago/memphis.js'], false, false, false, false);</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>__ez.queue.addFile('__ezf_ezosuigenerisc', '//g.ezoic.net/ezosuigenerisc.js?nogen=1', true, ["/detroitchicago/boise.js"], true, false, false, false);</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_133674=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["704b86db-82ea-4bcd-6db6-9a26886e6c7a", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=191-6&shcb=34', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=191-6&shcb=34', false, [], true, false, false, false);
+</script>
+
+<script type='text/javascript' data-cfasync='false'></script></body>
+</html>
+
+INFO	2020-09-24 23:00:22,550	1907	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-24 23:00:22,550	1907	EmployeesRestAPI	[main]	responseTime is1336
+INFO	2020-09-24 23:00:22,551	1908	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-24 23:00:22,551	1908	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-24 23:00:22,551	1908	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-24 23:00:22,551	1908	EmployeesRestAPI	[main]	statuscode is429
+INFO	2020-09-24 23:00:22,552	1909	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-24 23:00:22,552	1909	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 429 Too Many Requests
+INFO	2020-09-24 23:00:22,553	1910	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-24 23:00:22,556	1913	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 23:00:27,380	6737	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 23:00:27,382	6739	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-24 23:00:33,430	12787	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-24 23:00:33,434	12791	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-24 23:00:39,456	18813	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-24 23:00:39,457	18814	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-24 23:00:47,350	26707	EmployeesRestAPI	[main]	*****finished*******TC005_Delete_Employee_Record***
+INFO	2020-09-24 23:02:21,195	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-24 23:02:25,152	3957	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-24 23:02:25,153	3958	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-24 23:02:25,160	3965	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-24 23:02:25,160	3965	EmployeesRestAPI	[main]	ContentLength  isnull
+INFO	2020-09-24 23:02:25,164	3969	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-24 23:02:25,164	3969	EmployeesRestAPI	[main]	contentType  istext/html; charset=UTF-8
+INFO	2020-09-24 23:02:25,165	3970	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-24 23:02:25,165	3970	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-24 23:02:25,178	3983	EmployeesRestAPI	[main]	responsebody is<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=(function(){var count=0,incr=0,items=[],timeDelayFired=false,hpItems=[],lpItems=[],allowLoad=true;var obj={func:function(name,funcName,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError){var self=this;this.name=name;this.funcName=funcName;this.parameters=parameters===null?null:(parameters instanceof Array)?parameters:[parameters];this.isBlock=isBlock;this.blockedBy=blockedBy;this.deleteWhenComplete=deleteWhenComplete;this.isError=false;this.isComplete=false;this.isInitialized=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){log("... func = "+name);self.isInitialized=true;self.isComplete=true;log("... func.apply: "+name);var funcs=self.funcName.split('.');var func=null;if(funcs.length>3){}else if(funcs.length===3){func=window[funcs[0]][funcs[1]][funcs[2]];}else if(funcs.length===2){func=window[funcs[0]][funcs[1]];}else{func=window[self.funcName];}
+if(typeof func!=='undefined'&&func!==null){func.apply(null,this.parameters);}
+if(self.deleteWhenComplete===true)delete items[name];if(self.isBlock===true){log("----- F'D: "+self.name);processAll();}}},file:function(name,path,isBlock,blockedBy,async,defer,proceedIfError){var self=this;this.name=name;this.path=path;this.async=async;this.defer=defer;this.isBlock=isBlock;this.blockedBy=blockedBy;this.isInitialized=false;this.isError=false;this.isComplete=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){self.isInitialized=true;log("... file = "+name);var scr=document.createElement('script');scr.src=path;if(async===true)scr.async=true;else if(defer===true)scr.defer=true;scr.onerror=function(){log("----- ERR'D: "+self.name);self.isError=true;if(self.isBlock===true){processAll();}};scr.onreadystatechange=scr.onload=function(){var state=scr.readyState;log("----- F'D: "+self.name);if((!state||/loaded|complete/.test(state))){self.isComplete=true;if(self.isBlock===true){processAll();}}};document.getElementsByTagName('head')[0].appendChild(scr);}}};function init(){window.addEventListener("load",function(){setTimeout(function(){timeDelayFired=true;log('TDELAY -----');processAll();},5000);},false);}
+function addFile(name,path,isBlock,blockedBy,async,defer,proceedIfError,priority){var item=new obj.file(name,path,isBlock,blockedBy,async,defer,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function setallowLoad(settobool){allowLoad=settobool}
+function addFunc(name,func,parameters,isBlock,blockedBy,autoInc,deleteWhenComplete,proceedIfError,priority){if(autoInc===true)name=name+"_"+incr++;var item=new obj.func(name,func,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFile(name,path){var item=new obj.file(name,path,false,[],false,false,true);item.isTimeDelay=true;log(name+' ... '+' FILE! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFunc(name,func,parameters){var item=new obj.func(name,func,parameters,false,[],true,true);item.isTimeDelay=true;log(name+' ... '+' FUNCTION! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function checkIfBlocked(item){if(isBlocked(item)===true||allowLoad==false)return;item.process();}
+function isBlocked(item){if(item.isTimeDelay===true&&timeDelayFired===false){log(item.name+" blocked = TIME DELAY!");return true;}
+if(item.blockedBy instanceof Array){for(var i=0;i<item.blockedBy.length;i++){var block=item.blockedBy[i];if(items.hasOwnProperty(block)===false){log(item.name+" blocked = "+block);return true;}else if(item.proceedIfError===true&&items[block].isError===true){return false;}else if(items[block].isComplete===false){log(item.name+" blocked = "+block);return true;}}}
+return false;}
+function log(msg){var href=window.location.href;var reg=new RegExp('[?&]ezq=([^&#]*)','i');var string=reg.exec(href);var res=string?string[1]:null;if(res==="1")console.debug(msg);}
+function processAll(){count++;if(count>200)return;log("let's go");processItems(hpItems);processItems(lpItems);}
+function processItems(list){for(var i in list){if(list.hasOwnProperty(i)===false)continue;var item=list[i];if(item.isComplete===true||isBlocked(item)||item.isInitialized===true||item.isError===true){if(item.isError===true){log(item.name+': error')}else if(item.isComplete===true){log(item.name+': complete already')}else if(item.isInitialized===true){log(item.name+': initialized already')}}else{item.process();}}}
+init();return{addFile:addFile,addDelayFile:addTimeDelayFile,addFunc:addFunc,addDelayFunc:addTimeDelayFunc,items:items,processAll:processAll,setallowLoad:setallowLoad};})();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.dot={};__ez.queue.addFile('/detroitchicago/memphis.js', '/detroitchicago/memphis.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/minneapolis.js', '/detroitchicago/minneapolis.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.vep=(function(){var pixels=[],pxURL="/detroitchicago/grapefruit.gif";function AddPixel(vID,pixelData){if(__ez.dot.isDefined(vID)&&__ez.dot.isValid(pixelData)){pixels.push({type:'video',video_impression_id:vID,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&&document.visibilityState==="prerender"){return;}
+if(__ez.dot.isDefined(pixels)&&pixels.length>0){while(pixels.length>0){var j=5;if(j>pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);(new Image()).src=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&v="+btoa(JSON.stringify(pushPixels));}}
+pixels=[];}
+return{Add:AddPixel,Fire:Fire};})();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>__ez.pel=(function(){var pixels=[],pxURL="/porpoiseant/army.gif";function AddAndFirePixel(adSlot,pixelData){AddPixel(adSlot,pixelData,0,0,0,0,0);Fire();}
+function GetCurrentPixels(){return pixels;}
+function AddPixel(adSlot,pixelData,revenue,est_revenue,bid_floor_filled,bid_floor_prev,stat_source_id){if(!__ez.dot.isDefined(adSlot)||__ez.dot.isAnyDefined(adSlot.getSlotElementId,adSlot.ElementId)==false){return;}
+var ad_position_id=parseInt(__ez.dot.getTargeting(adSlot,'ap'));var impId=__ez.dot.getSlotIID(adSlot),adUnit=__ez.dot.getAdUnit(adSlot);var compId=parseInt(__ez.dot.getTargeting(adSlot,"compid"));var lineItemId=0;var creativeId=0;var ezimData=getEzimData(adSlot);if(typeof ezimData=='object'){if(ezimData.creative_id!==undefined){creativeId=ezimData.creative_id;}
+if(ezimData.line_item_id!==undefined){lineItemId=ezimData.line_item_id;}}
+if(__ez.dot.isDefined(impId,adUnit)&&__ez.dot.isValid(pixelData)){pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),revenue:revenue,est_revenue:est_revenue,ad_position:ad_position_id,ad_size:"",bid_floor_filled:bid_floor_filled,bid_floor_prev:bid_floor_prev,stat_source_id:stat_source_id,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:compId,line_item_id:lineItemId,creative_id:creativeId,data:__ez.dot.dataToStr(pixelData)});}}
+function AddPixelById(impFullId,pixelData){var vals=impFullId.split('/');if(__ez.dot.isDefined(impFullId)&&vals.length===3&&__ez.dot.isValid(pixelData)){var adUnit=vals[0],impId=vals[2];pixels.push({type:"impression",impression_id:impId,domain_id:__ez.dot.getDID(),unit:adUnit,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(pixelData)});}}
+function Fire(){if(typeof document.visibilityState!=='undefined'&&document.visibilityState==="prerender")return;if(__ez.dot.isDefined(pixels)&&pixels.length>0){while(pixels.length>0){var j=5;if(j>pixels.length){j=pixels.length;}
+var pushPixels=pixels.splice(0,j);var pixelURL=__ez.dot.getURL(pxURL)+"?orig="+(__ez.template.isOrig===true?1:0)+"&sts="+btoa(JSON.stringify(pushPixels));if(typeof window.isAmp!=='undefined'&&isAmp&&typeof window._ezaq!=='undefined'&&_ezaq.hasOwnProperty("domain_id")){pixelURL+="&visit_uuid="+_ezaq['visit_uuid'];}
+(new Image()).src=pixelURL;}}
+pixels=[];}
+function getEzimData(adSlot){if(typeof _ezim_d=="undefined"){return false}
+var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d==='object'&&_ezim_d.hasOwnProperty(adUnitName)){return _ezim_d[adUnitName];}
+for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
+return false;}
+return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=191-6&cb=1', false, [], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":1,"bidder_version":3,"city":"Meerut","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":0,"page_view_id":"41c5732b-af0a-40b3-785b-860546c8d351","position_selection_id":0,"postal_code":"250001","pv_event_count":0,"response_time_orig":2362,"serverid":"18.141.10.15:19909","state":"UP","sub_page_ad_positions":"","t_epoch":1600968739,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employees","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-24","pageview_id":"41c5732b-af0a-40b3-785b-860546c8d351","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employees","visit_uuid":"3d0d88e6-5b31-4d45-409d-9cdd9575d524"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=191-6&cb=2', false, [], true, false, true, false);</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    
+<script data-ezscrex="false" data-cfasync="false" type="text/javascript">window.google_analytics_uacct = "UA-131129777-14";</script>
+<script data-ezscrex="false" data-cfasync="false" type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(function(){
+	_gat._createTracker('UA-131129777-14', 'e');
+});
+_gaq.push(function(){
+	_gat._createTracker('UA-38339005-1', 'f');
+});
+_gaq.push(['e._setDomainName', 'restapiexample.com']);
+_gaq.push(['f._setDomainName', 'restapiexample.com']);
+_gaq.push(['e._setCustomVar',1,'template','pub_site_noads',3]);
+_gaq.push(['e._setCustomVar',2,'t','147',3]);
+_gaq.push(['e._setCustomVar',3,'rid','0',2]);
+_gaq.push(['e._setCustomVar',4,'bra','mod1',3]);
+_gaq.push(['e._setAllowAnchor',true]);
+_gaq.push(['e._setSiteSpeedSampleRate', 10]);
+_gaq.push(['f._setCustomVar',1,'template','pub_site_noads',3]);
+_gaq.push(['f._setCustomVar',2,'domain','restapiexample.com',3]);
+_gaq.push(['f._setSiteSpeedSampleRate', 20]);
+_gaq.push(['e._trackPageview']);
+_gaq.push(['f._trackPageview']);
+
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">var ezouid = "1";</script><base href="http://dummy.restapiexample.com/api/v1/employees"><script type='text/javascript'>
+var ezoTemplate = 'pub_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 133674;
+var ezdomain = 'restapiexample.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>
+__ez.queue.addFile('__ezf_ezosuigeneris', '//g.ezoic.net/ezosuigeneris.js', true, [], true, false, false, false);
+var __ez_ezosuigenerisEvt = function() { if(typeof(ezosuigeneris) != 'undefined'){__ez.bit.AddAndFire(_ezaq['page_view_id'], [(new __ezDotData('universal_user_id', ezosuigeneris))]); }};
+__ez.queue.addFunc('__ez_ezosuigenerisEvt', '__ez_ezosuigenerisEvt', null, false, ['__ezf_ezosuigeneris','/detroitchicago/minneapolis.js','/detroitchicago/memphis.js'], false, false, false, false);</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>__ez.queue.addFile('__ezf_ezosuigenerisc', '//g.ezoic.net/ezosuigenerisc.js?nogen=1', true, ["/detroitchicago/boise.js"], true, false, false, false);</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_133674=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["41c5732b-af0a-40b3-785b-860546c8d351", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script><script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=191-6&shcb=34', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=191-6&shcb=34', false, [], true, false, false, false);
+</script>
+
+<script type='text/javascript' data-cfasync='false'></script></body>
+</html>
+
+INFO	2020-09-24 23:02:25,179	3984	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-24 23:02:25,179	3984	EmployeesRestAPI	[main]	responseTime is3375
+WARN	2020-09-24 23:02:25,179	3984	EmployeesRestAPI	[main]	Response time is greater than 2000
+INFO	2020-09-24 23:02:25,179	3984	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-24 23:02:25,180	3985	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-24 23:02:25,180	3985	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-24 23:02:25,180	3985	EmployeesRestAPI	[main]	statuscode is429
+INFO	2020-09-24 23:02:25,180	3985	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-24 23:02:25,180	3985	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 429 Too Many Requests
+INFO	2020-09-24 23:02:25,181	3986	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-24 23:02:25,184	3989	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 23:02:29,329	8134	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-24 23:02:29,331	8136	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-24 23:02:35,396	14201	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-24 23:02:35,398	14203	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-24 23:02:41,370	20175	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-24 23:02:41,372	20177	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-25 23:45:50,306	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-25 23:45:51,756	1450	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-25 23:45:51,756	1450	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-25 23:45:51,763	1457	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-25 23:45:51,763	1457	EmployeesRestAPI	[main]	ContentLength  is595
+INFO	2020-09-25 23:45:51,763	1457	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-25 23:45:51,763	1457	EmployeesRestAPI	[main]	contentType  isapplication/json;charset=utf-8
+INFO	2020-09-25 23:45:51,767	1461	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-25 23:45:51,767	1461	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-25 23:45:51,778	1472	EmployeesRestAPI	[main]	responsebody is{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+INFO	2020-09-25 23:45:51,778	1472	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-25 23:45:51,779	1473	EmployeesRestAPI	[main]	responseTime is852
+INFO	2020-09-25 23:45:51,779	1473	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-25 23:45:51,779	1473	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-25 23:45:51,780	1474	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-25 23:45:51,780	1474	EmployeesRestAPI	[main]	statuscode is200
+INFO	2020-09-25 23:45:51,780	1474	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-25 23:45:51,780	1474	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 200 OK
+INFO	2020-09-25 23:45:51,781	1475	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-25 23:45:51,783	1477	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-25 23:45:56,009	5703	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-25 23:45:56,011	5705	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-25 23:46:03,720	13414	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-25 23:46:03,722	13416	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-25 23:46:09,822	19516	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-25 23:46:09,825	19519	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-25 23:46:16,689	26383	EmployeesRestAPI	[main]	*****finished*******TC005_Delete_Employee_Record***
+INFO	2020-09-25 23:50:14,914	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-25 23:50:17,189	2275	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-25 23:50:17,189	2275	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-25 23:50:17,196	2282	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-25 23:50:17,196	2282	EmployeesRestAPI	[main]	ContentLength  is631
+INFO	2020-09-25 23:50:17,196	2282	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-25 23:50:17,196	2282	EmployeesRestAPI	[main]	contentType  isapplication/json
+INFO	2020-09-25 23:50:17,197	2283	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-25 23:50:17,201	2287	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-25 23:50:17,208	2294	EmployeesRestAPI	[main]	responsebody is{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2020-09-25 23:50:17,209	2295	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-25 23:50:17,209	2295	EmployeesRestAPI	[main]	responseTime is1717
+INFO	2020-09-25 23:50:17,209	2295	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-25 23:50:17,209	2295	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-25 23:50:17,210	2296	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-25 23:50:17,210	2296	EmployeesRestAPI	[main]	statuscode is200
+INFO	2020-09-25 23:50:17,210	2296	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-25 23:50:17,210	2296	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 200 OK
+INFO	2020-09-25 23:50:17,211	2297	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-25 23:50:17,213	2299	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-25 23:50:21,237	6323	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-25 23:50:21,238	6324	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-25 23:50:27,252	12338	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-25 23:50:27,254	12340	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-25 23:50:33,327	18413	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-25 23:50:33,329	18415	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***
+INFO	2020-09-26 09:01:10,504	0	EmployeesRestAPI	[main]	*************started TC001_Get_All_Employees***
+INFO	2020-09-26 09:01:12,884	2380	EmployeesRestAPI	[main]	*************checking contentEncoding**
+INFO	2020-09-26 09:01:12,884	2380	EmployeesRestAPI	[main]	contentEncoding  isgzip
+INFO	2020-09-26 09:01:12,891	2387	EmployeesRestAPI	[main]	*************checking contentlength**
+INFO	2020-09-26 09:01:12,891	2387	EmployeesRestAPI	[main]	ContentLength  is631
+INFO	2020-09-26 09:01:12,892	2388	EmployeesRestAPI	[main]	*************checking Content Type***
+INFO	2020-09-26 09:01:12,892	2388	EmployeesRestAPI	[main]	contentType  isapplication/json
+INFO	2020-09-26 09:01:12,892	2388	EmployeesRestAPI	[main]	*************checking checkCookies**
+INFO	2020-09-26 09:01:12,895	2391	EmployeesRestAPI	[main]	*************checking response body***
+INFO	2020-09-26 09:01:12,903	2399	EmployeesRestAPI	[main]	responsebody is{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2020-09-26 09:01:12,904	2400	EmployeesRestAPI	[main]	*************checking response time***
+INFO	2020-09-26 09:01:12,904	2400	EmployeesRestAPI	[main]	responseTime is1710
+INFO	2020-09-26 09:01:12,905	2401	EmployeesRestAPI	[main]	*************checking server Type***
+INFO	2020-09-26 09:01:12,905	2401	EmployeesRestAPI	[main]	serverType  isnginx/1.16.0
+INFO	2020-09-26 09:01:12,905	2401	EmployeesRestAPI	[main]	*************checking status code***
+INFO	2020-09-26 09:01:12,905	2401	EmployeesRestAPI	[main]	statuscode is200
+INFO	2020-09-26 09:01:12,906	2402	EmployeesRestAPI	[main]	*************checking status line***
+INFO	2020-09-26 09:01:12,906	2402	EmployeesRestAPI	[main]	statusline  isHTTP/1.1 200 OK
+INFO	2020-09-26 09:01:12,906	2402	EmployeesRestAPI	[main]	*************finished TC001_Get_All_Employees***
+INFO	2020-09-26 09:01:12,909	2405	EmployeesRestAPI	[main]	*************started TC002_Get_Single_Employee_Record***
+INFO	2020-09-26 09:01:16,925	6421	EmployeesRestAPI	[main]	*************TC002_Get_Single_Employee_Record***
+INFO	2020-09-26 09:01:16,926	6422	EmployeesRestAPI	[main]	*************started TC003_Post_Employee_Record***
+INFO	2020-09-26 09:01:22,913	12409	EmployeesRestAPI	[main]	*****finished*******TC003_Post_Employee_Record***
+INFO	2020-09-26 09:01:22,916	12412	EmployeesRestAPI	[main]	*************started TC004_Put_Employee_Record***
+INFO	2020-09-26 09:01:28,891	18387	EmployeesRestAPI	[main]	*****finished*******TC004_Put_Employee_Record***
+INFO	2020-09-26 09:01:28,893	18389	EmployeesRestAPI	[main]	*************started TC005_Delete_Employee_Record***

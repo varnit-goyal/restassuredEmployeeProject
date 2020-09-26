@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EmployeeRestAPISuite]">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.Listerners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeeRestAPITest(failed)">
+    <classes>
+      <class name="com.employeeapi.testcases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="checkContentLength"/>
+          <include name="getAllEmployees"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+          <include name="checkContentType"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC002_Get_Single_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC001_Get_All_Employees">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkCookies"/>
+          <include name="getAllEmployees"/>
+          <include name="checkResponseTime"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC001_Get_All_Employees -->
+      <class name="com.employeeapi.testcases.TC005_Delete_Employee_Record">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="deleteEmployees"/>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseTime"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="checkStatusLine"/>
+          <include name="checkServerType"/>
+          <include name="checkContentLength"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC005_Delete_Employee_Record -->
+    </classes>
+  </test> <!-- EmployeeRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeeRestAPISuite] -->
